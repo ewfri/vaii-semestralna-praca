@@ -1,0 +1,49 @@
+h2 {
+    text-align: center;
+}
+
+span {
+    margin-left: 1.35rem;
+    color: red;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,10,122,1) 44%, rgba(0,212,255,1) 100%);
+}
+
+p {
+    text-align: center;
+}
+
+.formular {
+ /* text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff; */
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: max(calc((100vh - 382px)/4),80px);
+    max-width: 400px;
+    width: 90vw;
+    background: rgba(255, 255, 255, 0.55);
+    border: black;
+    border-style: ridge;
+}
+
+.form-control {
+    height: 3rem;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 90%;
+    font-size: 22px;
+}
+
+label {
+    margin-left: 1.35rem;
+}
+
+.btn-form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -1,0 +1,59 @@
+body {
+    padding: 20px;
+    background: #004040;
+    color: aliceblue;
+    padding-bottom: 70px;
+}
+
+.odpoved {
+    text-align: left;
+    font-size: 4.8vw;
+    margin-bottom: 10px;
+    display: table;
+} @media screen and (min-width: 480px) {
+    .odpoved {
+        font-size: 23px;
+        text-align: start;
+
+    }
+}
+
+.znenie {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 6.8vw;
+    margin-bottom: 2vh;
+} @media screen and (min-width: 480px) {
+    .znenie {
+        font-size: 33px;
+        text-align: start;
+
+    }
+}
+
+
+.btn-nav {
+    width: 32vw;
+    font-size: 6vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+} @media screen and (min-width: 480px) {
+    .btn-nav {
+        font-size: 29px;
+    }
+}
+
+.obrazok {
+    display: block;
+    width: auto;
+    max-height: 30vh;
+    max-width: 100%;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 800px) {
+    .obrazok {
+        margin-left: 20px;
+    }
+}
