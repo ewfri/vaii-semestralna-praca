@@ -1,0 +1,135 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,10,122,1) 44%, rgba(0,212,255,1) 100%);
+}
+
+
+/*topic.php*/
+.comment-post {
+    background-color: limegreen;
+    border-style: double;
+    border-color: black;
+}
+.comment-content {
+    margin-top: 5px;
+    width: 100%;
+    background-color: white;
+    min-height: 160px;
+}
+
+.comment-section {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.comment-form {
+    background-color: cadetblue;
+    border-style: double;
+    border-color: black;
+}
+.comment-form textarea {
+    min-height: 160px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.comment-date {
+    color: cadetblue;
+
+}
+
+.comment-date {
+    color: cadetblue;
+}
+.comment-form input {
+    padding: 6px;
+}
+
+/*index.php*/
+.bg-dark {
+    background-color: black;
+    color: white;
+}
+
+/*create_cat.php & create_topic.php*/
+
+.form-box {
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 70%;
+    margin-left: 15%;
+    padding: 7px;
+}
+
+/*login register resetpass*/
+.formular h2 {
+    text-align: center;
+}
+
+.formular form .form-group span {
+    margin-left: 1.35rem;
+    color: red;
+}
+
+.formular p {
+    text-align: center;
+}
+
+.formular {
+    /* text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff; */
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: max(calc((100vh - 382px)/4),80px);
+    max-width: 400px;
+    width: 90vw;
+    background: rgba(255, 255, 255, 0.55);
+    border: black;
+    border-style: ridge;
+}
+
+.formular .form-control {
+    height: 3rem;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 90%;
+    font-size: 22px;
+}
+
+.formular label {
+    margin-left: 1.35rem;
+}
+
+.formular .btn-form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 7px;
+}
+
+/*header.php*/
+.nav-link {
+    text-align: center;
+    font-size: 22px;
+} @media screen and (max-width: 767px) {
+    .nav-link {
+        font-size: 7vw;
+    }
+}
+
+.navbar-nav {
+    width: 100%;
+} @media (min-width: 768px) {
+
+}
+
+.right {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+} @media (max-width: 767px) {
+    .right {
+        margin-right: auto;
+    }
+}
+
